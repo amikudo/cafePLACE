@@ -1,0 +1,38 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.popular {
+    &__container {
+        justify-content: space-between;
+    }
+
+    &__item {
+        flex-basis: 47%;
+    }
+}
+
+.travel {
+    &__inner {
+        padding: 0;
+    }
+    &__texts,
+    &__img {
+        flex-basis: 47%;
+    }
+
+    &__texts {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.aa {
+    display: inline-block;
+}
